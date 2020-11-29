@@ -38,7 +38,7 @@ def train():
             optimizer.step()
 
     # saving the model
-    torch.save(net.state_dict(),'/home/aer4kor/PycharmProjects/PP/cifar10_classification_pytorch/cifar.pth')
+    torch.save(net.state_dict(),'./cifar.pth')
 
 
 
